@@ -6,7 +6,7 @@ const pool = new Pool({
     password: "postgres", //lame password since it'll be on my github
     host: "localhost",
     port: 5432,
-    database: "natetodo"
+    database: "perntodo"
 });
 
 module.exports = pool; //export it out
